@@ -40,6 +40,7 @@ border-right: 15px double #e5b76e;
 box-shadow: 10px 10px 20px #e5b76e;
 font-size: 2em;
 margin: 3em;
+text-shadow: 20px 20px 20px white;
 }
 
 ul{
@@ -72,6 +73,7 @@ a{
 	transition: text-decoration 0.5s linear;
 	font-family: 'Whisper', cursive;
 	font-weight: 800;
+	text-shadow: 5px 5px 10px #f9ab18;
 }
 a:active {
   color: blue;
@@ -88,7 +90,7 @@ a:hover{
 	text-decoration: underline overline solid 3px #e5b76e;
 	font-family: 'Beau Rivage', cursive;
     font-family: 'Dancing Script', cursive;
-    color: hotpink;
+    color: brown;
  }
 
 
@@ -114,8 +116,9 @@ a:active {
 }
 
 .carrusel{
-width: 80%;
+width: 60%;
 margin:auto;
+padding: 40px;
 }
 #titulo{
 	font-size: 2em;
@@ -132,8 +135,6 @@ margin:auto;
 	font-size: 2em;
 	font-weight: 900;
 	background: url(https://img.bekiafit.com/articulos/portada/97000/97523.jpg);
-
-
 }
 
 #Eslogan{
@@ -143,8 +144,7 @@ margin:auto;
 	text-shadow: 10px 5px 5px;
 }
 .Parrafo{
-	display: flex;
-}
+	display: flex;}
 .columna1{
 	background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),url(https://www.colbake.com/wp-content/uploads/2019/04/maquinaria-panaderia-colbake.jpg);
 	padding: 10px;
@@ -194,5 +194,85 @@ img{
 	width: 10%;
 	
 }
+.Ubi{
+	display: flex;
+	justify-content: center;
+}
+.texto1{
+	background-color: #e5b76e;
+	font-size: 18px;
+	padding: 40px;
+	margin: 20px;
+}
+.mapa{
+	padding: 20px;
+}
+.productos{
+	text-align: center;
+	padding: 10px;
+	margin: 50px;
+	font-weight: 800;
+	font-size: 65px;
+	text-shadow: 10px 5px 5px #efbe78;
+	font-family: 	font-family: 'Beau Rivage', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.produ11{
+	display: flex;
+	justify-content: center;
+}
+.produ1{
+	width: 40%;
+	padding: 20px;
+}
+.produ2{
+	width: 90%;
+	padding: 20px;
+}
+.produ12{
+	display: flex;
+	justify-content: center;
+}
+.produ3{
+	width: 40%;
+	padding: 20px;
+}
+.produ4{
+	width: 90%;
+	padding: 20px;
+}
+.produ13{
+	display: flex;
+	justify-content: center;
+}
+.produ5{
+	width: 40%;
+	padding: 20px;
+}
+.produ6{
+	width: 90%;
+	padding: 20px;
+}
+.produ14{
+	display: flex;
+	justify-content: center;
+}
+.produ7{
+	width: 40%;
+	padding: 20px;
+}
+.produ8{
+	width: 90%;
+	padding: 20px;}
 
-
+.produ15{
+	display: flex;
+	justify-content: center;
+}
+.produ9{
+	width: 40%;
+	padding: 20px;
+}
+.produ10{
+	width: 90%;
+	padding: 20px;}
